@@ -60,30 +60,92 @@
       REFERÊNCIAS: «Plants vs Zombies Review for the PC from». 1Up.com. 8 de maio de 2009. Consultado em 16 de março de<b>Historia de Plants vs Zombies</b>wikipedia</p>
       
 </div>
+<head>
+
+  <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Books</title>
+    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles/style.css">        
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="reset.css">
+
+</head>
+
+    </div>
+    </header>
+
+<section class="banner">
+    <h2 class="banner_-titulo">conheça plants-vs-zombies</h2>
+<input type="search" class="banner__pesquisa "placeholder="Qual será a sua primeira leitura?">
+</section>
+
+<section class="carrossel">
+    <h2 class="corressel__titulo">Novos lançamentos</h2>
+    <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      
+      <div class="swiper-slide"><img src="img/apps.355.70921300667420253.8c8a7ac7-d0bd-46fb-a144-4c5ea316247c.jpeg" width="700" height="500" alt="Javascript">
+      <p>Plants-vs-Zombies-garden-warfer</p>   </div>
+          
+         <div class="swiper-slide"> <img src="img/download.jpeg" width="600" height="400"  alt="Liderança">
+             <p>plants-vs-zombies-heros</p>    </div>
+           
+            <div class="swiper-slide"> <img src="img/lamp.png" width="600" height="400" alt="Mean">
+            <p>capa do jogo</p></div>
+             
+                <div class="swiper-slide"><img src="img/plants-vs-zombies-15.webp" width="600" height="400" alt="portugol">
+                <p>gameplay</p></div>
+            
+                     <div class="swiper-slide"> <img src="img/Plants-vs-Zombies-Battle-for-Neighborville-Complete-Edition-1.jpg" width="600" height="400" alt="Tuning">
+                    <p>Plants-vs-Zombies-Battle-for-Neighborville-Complete-Edition-1</p></div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});</script>
+</body>
+</html>
 
 <button type="button" onclick="document.getElementById('txt01').style.display='block'">Saiba mais</button>
 <button type="button" onclick="document.getElementById('txt01').style.display='none'">Ocultar</button>
 
-        <div class="lamp.png">
-        <img src="/img/lamp.png" width="1000"height="1000">
-        <p>Capa do jogo</p>
-      </div>
-
-      <div class="plants-vs-zombies-15.webp">
-        <img src="/img/plants-vs-zombies-15.webp" width="1000"height="600">
-        <p>Game Play</p>
-       </div>
-
-      <div class="Plants-vs-Zombies-Battle-for-Neighborville-Complete-Edition-1.jpg">
-       <img src="/img/Plants-vs-Zombies-Battle-for-Neighborville-Complete-Edition-1.jpg"  width="1000"height="600">
-       <p>Plants-vs-Zombies-Battle-for-Neighborville-Complete-Edition</p>
-       </div>
-
-             <div class="Plants vs. Zombies Garden Warfare">
-        <img src="/img/apps.355.70921300667420253.8c8a7ac7-d0bd-46fb-a144-4c5ea316247c.jpeg"  width="1000"height="600">
-        <p>Plants vs. Zombies Garden Warfare</p>
-         </div>
-
+        
 
 </body>
 </html>
